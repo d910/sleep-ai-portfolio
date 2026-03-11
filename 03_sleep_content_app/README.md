@@ -1,7 +1,8 @@
 # 睡前内容生成器（Web应用）
 
 ## 项目简介
-使用Python、Streamlit、通义千问API制作的助眠web应用Demo
+使用vue、Fastapi、通义千问API制作的助眠web应用Demo（已上云）
+[访问链接](http://43.99.30.193/)
 
 ## 功能特点
 - 睡前故事生成
@@ -9,29 +10,25 @@
 - 睡眠日记模板
 
 ## 技术栈
-- **平台**：streamlit
+- **平台**：阿里云轻量应用服务器
 - **核心技术**：
-  - Python 
-  - Streamlit
+  - vue 
+  - fastapi
   - 通义千问API
-  - 语音合成
+
 
 ## 实现细节
 
 ### 完整代码
-[代码](sleep_app.py)
-
-### 在线体验
-[链接](https://sleep-ai-app-fgd6iyx2dxyamnsdkbihia.streamlit.app)
+[代码](./code/)
 
 
 ## 项目截图
 
 ### 对话界面
-[web界面](界面截图.png)
-[睡前故事功能测试](睡前故事截图.png)
-[冥想引导功能测试](冥想引导+语音截图.png)
-[睡眠日记功能测试](睡眠日记模板.png)
+![睡前故事功能测试](睡前故事截图.png)
+[冥想引导功能测试](冥想引导截图.png)
+[睡眠日记功能测试](睡眠日记截图.png)
 
 
 ## 改进方向

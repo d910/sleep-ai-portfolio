@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+dashscope
+python-multipart
+httpx
+python-dotenv
