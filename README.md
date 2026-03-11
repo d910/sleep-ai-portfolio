@@ -1,6 +1,6 @@
 # 睡眠AI应用开发作品集 🌙
 
-围绕「睡眠健康」场景，使用Coze、dify、Python、RAG、langchain、Streamlit等技术开发的4个AI应用项目。
+围绕「睡眠健康」场景，使用Coze、dify、Python、RAG、Fastapi、Streamlit等技术开发的4个AI应用项目。
 
 ## 项目列表
 
@@ -16,9 +16,9 @@
 **体验链接**：[点击查看演示视频](./02_AI睡眠健康顾问-Dify/演示视频.mp4)
 
 ### 🌐 [03. 睡前内容生成器（Web应用）](./03_sleep_content_app/)
-**技术**：Python + Streamlit + 通义千问API + 语音合成  
+**技术**：vue + fastapi + 通义千问API  
 **功能**：睡前故事生成 + 冥想引导（带语音）+ 睡眠日记模板  
-**在线体验**：[点击访问](https://sleep-ai-app-fgd6iyx2dxyamnsdkbihia.streamlit.app/)  
+**在线体验**：[点击访问](http://43.99.30.193/)  
 **亮点**：带UI的完整Web应用，部署在云端，支持语音播放
 
 ### 🌐 [04. 睡眠互助社区（Web应用）](./04_sleep_community/)
@@ -32,7 +32,7 @@
 - **无代码平台**：Coze，dify
 - **编程语言**：Python 3.12
 - **AI API**：通义千问（文本生成 + 语音合成）
-- **核心技术**：Prompt Engineering / RAG / Agent / TTS / langchain
+- **核心技术**：Prompt Engineering / RAG / Agent / TTS / fastapi
 
 ### 开发工具
 - Python、Streamlit
